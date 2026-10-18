@@ -1,0 +1,39 @@
+{
+  "fertility": {
+    "gpt2": {
+      "en": 1.4505734615009873,
+      "tr": 3.6479531135075596
+    },
+    "bert-base-multilingual-cased": {
+      "en": 1.6368651228466498,
+      "tr": 2.608278608660516
+    },
+    "dbmdz/bert-base-turkish-cased": {
+      "en": 2.222432635869572,
+      "tr": 1.7751468920078515
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+      "en": 1.4480771161240333,
+      "tr": 2.687383178091693
+    }
+  },
+  "kv_cache_seconds": {
+    "with_cache": 8.155337872999988,
+    "without_cache": 9.01357838433332
+  },
+  "classification": {
+    "task_specific": {
+      "accuracy": 0.800187617260788,
+      "macro_f1": 0.7989090725522547
+    },
+    "embeddings_logreg": {
+      "accuracy": 0.851782363977486,
+      "macro_f1": 0.8517776682624614
+    },
+    "zero_shot": {
+      "accuracy": 0.7917448405253283,
+      "macro_f1": 0.7896651023890785
+    }
+  },
+  "recommended": "embeddings_logreg"
+}
